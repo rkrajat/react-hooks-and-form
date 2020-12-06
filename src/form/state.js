@@ -47,6 +47,6 @@ export const FormReducer = (state, { key, payload }) => {
       state.emailUpdates.error = payload.error;
       return;
     default:
-      return state;
+      throw new Error(`No reducer available for key = ${key}`);
   }
 };
