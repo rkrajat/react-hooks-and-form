@@ -46,5 +46,7 @@ export const FormReducer = (state, { key, payload }) => {
       state.emailUpdates.value = payload.newValue;
       state.emailUpdates.error = payload.error;
       return;
+    default:
+      return state;
   }
 };

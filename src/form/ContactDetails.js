@@ -9,7 +9,7 @@ const ContactDetails = ({}) => {
       <label>Mobile: </label>
       <input
         className="input"
-        placeholder="enter mobile"
+        placeholder="+91-9090909090"
         maxLength={10}
         value={state.mobile.value}
         onChange={(e) => handleChange("mobile", e.target.value)}
