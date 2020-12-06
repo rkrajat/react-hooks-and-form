@@ -1,2 +1,2 @@
 # react-hooks-and-form
-Created with CodeSandbox
+Repo contains examples discussed in - https://link.medium.com/ev7q8Clh0bb
